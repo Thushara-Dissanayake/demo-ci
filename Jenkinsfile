@@ -5,7 +5,7 @@ node {
     }
 
     stage('Build frontend image') {
-       app = docker.build("thush1990/demo-ci/frontend")
+       app = docker.build("thush1990/demo-ci")
     }
 
     stage('Test image') {

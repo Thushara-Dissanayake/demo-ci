@@ -9,8 +9,8 @@
     <code id="backend-msg">None</code>
   </p>
   <script>
-
-      fetch("http://localhost:5200/msg/")
+      // fetch("http://localhost:5200/msg/")
+      fetch("http://backend.default:5200/msg/")
       .then(response => response.json())
       .then(data => {
         console.log(data)

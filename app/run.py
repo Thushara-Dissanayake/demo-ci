@@ -9,4 +9,4 @@ def home():
 
 @app.route('/backend')
 def get_data():
-    return requests.get('http://backend.default:5200/msg/').content
+    return requests.get('http://backend:5200/msg/').content
